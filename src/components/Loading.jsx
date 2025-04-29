@@ -16,11 +16,11 @@ const UserManagement = () => {
     const fetchUsers = () => {
         setTimeout(() => {
             setUsers([
-                { id: 1, name: 'Holy Berry' },
-                { id: 2, name: 'Pure Vanilla' },
-                { id: 3, name: 'White Lily' },
-                { id: 4, name: 'Golden Cheese' },
-                { id: 5, name: 'Dark Cacoa' },
+                { id: 1, name: 'Holy Berry Cookie' },
+                { id: 2, name: 'Pure Vanilla Cookie' },
+                { id: 3, name: 'White Lily Cookie' },
+                { id: 4, name: 'Golden Cheese Cookie' },
+                { id: 5, name: 'Dark Cacoa Cookie' },
             ]);
             setStatus('idle');
         }, 3000);
@@ -81,7 +81,7 @@ const UserManagement = () => {
             </div>
 
             <ul className="fetchingUL">
-                <h2 className="fu">Fetched Users</h2>
+                <h2 className="fu">FETCHED COOKIES</h2>
                 <div className="listOfUSER">
                     {users.map((user) => (
                         <li key={user.id}>{user.name}</li>
@@ -90,7 +90,7 @@ const UserManagement = () => {
             </ul>
 
             <ul className="containerUL">
-                <h2 className='um'>USER MANAGEMENT - CAN DELETE USER</h2>
+                <h2 className='um'>DELETE COOKIES</h2>
                 <div className="listOfUN">
                     {users.map((user) => (
                         <li className="listItem" key={user.id}>
