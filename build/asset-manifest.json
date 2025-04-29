@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea73e239.css",
+    "main.js": "/static/js/main.22cef460.js",
+    "static/js/453.6a2b3110.chunk.js": "/static/js/453.6a2b3110.chunk.js",
+    "static/media/Shadow_milk_gacha_animation.webp": "/static/media/Shadow_milk_gacha_animation.e74cddee7cf0f486aa9b.webp",
+    "static/media/bg.png": "/static/media/bg.8c389ee010868a85ad38.png",
+    "index.html": "/index.html",
+    "main.ea73e239.css.map": "/static/css/main.ea73e239.css.map",
+    "main.22cef460.js.map": "/static/js/main.22cef460.js.map",
+    "453.6a2b3110.chunk.js.map": "/static/js/453.6a2b3110.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea73e239.css",
+    "static/js/main.22cef460.js"
+  ]
+}
